@@ -1,9 +1,12 @@
-import { StyledFooter } from "./style"
+import { StyledFooter } from "./style";
 
 export const Footer = () => {
-    return (
-        <StyledFooter>
-            <h1>Footer</h1>
-        </StyledFooter>
-    )
-}
+  return (
+    <StyledFooter>
+      <h3>Thomaz Aplication</h3>
+      <p>
+        <span>My_T_Portfolio</span> &copy; 2024
+      </p>
+    </StyledFooter>
+  );
+};
