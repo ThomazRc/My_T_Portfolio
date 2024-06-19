@@ -12,7 +12,6 @@ export const StyledHeader = styled.header`
     align-items: center;
     justify-content: space-around;
     width: 100%;
-
   }
 
   img {
@@ -35,9 +34,4 @@ export const StyledHeader = styled.header`
     color: var(--secondary-color);
     transition: 0.4s;
   }
-
-
-
-
-
-`
+`;
