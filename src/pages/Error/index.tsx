@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
 export const ErrorPage = () => {
   return (
     <>
-      <h1>Página de Error</h1>
-      <p>Loading</p>
+    <section>
+    <h1>Error</h1>
+    <p>Página Inexistente</p>
+    <Link to="/">Voltar</Link>
+    </section>
     </>
   );
 };
