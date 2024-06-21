@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
+import { StyledSection } from "./style";
 
 export const ErrorPage = () => {
   return (
     <>
-    <section>
-    <h1>Error</h1>
-    <p>Página Inexistente</p>
+    <main>
+    <StyledSection>
+    <h1>Ops...</h1>
+    <p>Esta página não existe</p>
     <Link to="/">Voltar</Link>
-    </section>
+    </StyledSection>
+    </main>
     </>
   );
 };
