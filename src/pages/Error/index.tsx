@@ -6,6 +6,7 @@ export const ErrorPage = () => {
     <>
     <main>
     <StyledSection>
+    <button>Pt-br</button>
     <h1>Ops...</h1>
     <p>Esta página não existe</p>
     <Link to="/">Voltar</Link>
